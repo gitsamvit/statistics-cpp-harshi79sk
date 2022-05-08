@@ -31,4 +31,3 @@ template<typename T> Statistics::Stats<T> Statistics::ComputeStatistics(const st
 
     
 }
-

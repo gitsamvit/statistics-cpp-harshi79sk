@@ -31,7 +31,7 @@ TEST_CASE("reports average, minimum and maximum") {
 }
 
 TEST_CASE("average is NaN for empty array") {
-	std::vector<float> data{};
+	std::vector<float> data{1.5, 8.9, 3.1, 4.5};
     auto computedStats = Statistics::ComputeStatistics(data);
     REQUIRE(isnan(computedStats.Average));
     REQUIRE(isnan(computedStats.Max));

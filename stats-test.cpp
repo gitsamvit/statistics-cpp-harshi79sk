@@ -2,7 +2,7 @@
 
 #include "catch.hpp"
 #include "stats.h"
-#include "cmath"
+#include <cmath>
 /*TEST_CASE("reports average, minimum and maximum") {
 	Statistics::Stat<float> computedvalues;
     Statistics::Stat<float> computedstats = Statistics::ComputeStatistics(computedvalues,{1.5, 8.9, 3.1, 4.5});
